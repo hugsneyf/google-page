@@ -187,7 +187,7 @@ footer {
   font: 15px arial, sans-serif;
   font-size: 15px;
   padding: 0;
-  color: rgba(0,0,0,.54);
+  color: rgba(0, 0, 0, 0.54);
 }
 
 .leftLink > a:first-child {
@@ -214,6 +214,13 @@ footer {
   justify-content: flex-start;
 }
 
-.rightLink > a:hover, .centerLink > a:hover, .leftLink > a:hover {
+.rightLink > a:hover,
+.centerLink > a:hover,
+.leftLink > a:hover {
   text-decoration: underline;
+}
+
+/* query options */
+.queryPage {
+  display: none;
 }

@@ -1,0 +1,24 @@
+.centerLink {
+    display: none;
+}
+
+.othersLinks {
+    flex-direction: column;
+}
+
+.fullPage {
+    display: none;
+}
+
+.queryPage {
+    display:inherit;
+}
+
+.leftLink, .rightLink {
+    justify-content: center;
+}
+
+.rightLink {
+    margin-top: 12px;
+}
+
